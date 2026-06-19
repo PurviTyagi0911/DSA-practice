@@ -14,10 +14,5 @@ class Solution(object):
                 l+=1
             area=max(area,length*tall)
         return area
-
-
-
-
-
 ss=Solution()
 print(ss.maxArea(height))
