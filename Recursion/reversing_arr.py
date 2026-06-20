@@ -10,7 +10,6 @@ print(rev_arr(5,7))
 m=5
 n=7
 arr2=[1,3,6,8,2,5,7,9]
-
 while m<=n:
         arr2[m],arr2[n]=arr2[n],arr2[m]
         m+=1

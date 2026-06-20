@@ -1,5 +1,4 @@
 #3sum
-from collections import Counter
 nums= [-2,0,1,1,2]
 class Solution(object):
     def threeSum(self, nums):
