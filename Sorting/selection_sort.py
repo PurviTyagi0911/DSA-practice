@@ -1,4 +1,5 @@
 #selection sort ascending order
+#T(C)=O(N^2), S(C)=O(1)
 nums=[1,7,8,4,5,6,9,2]
 n=len(nums)
 for i in range(n):
