@@ -2,25 +2,19 @@
 nums = [1,2,3,4]
 class Solution(object):
      def productExceptSelf(self, nums):
-       answer=[]
-       p_l=1
-       p_r=1
        n=len(nums)
-       r=n
+       
+       answer=[1]*n
+       left_product=1
+       right_product=1
        right=[]
+       for l in range(n):
+          answer[l]=left_product
+          left_product*=nums[l]
+          
        for r in range(n-1,-1,-1):
-            if r==n-1:
-               p_r=1
-            else:
-              p_r*=nums[r+1]
-            right.append(p_r)
-       for t in range(n):
-           if t==0:
-            p_l=1
-           else:
-            p_l*=nums[t-1]
-           summ=p_l*right[n-1-t]
-           answer.append(summ)
+            answer[r]*=right_product
+            right_product*=nums[r]
                   
        return answer
         
