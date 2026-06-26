@@ -9,14 +9,8 @@ class Solution(object):
             strr=''.join(strr)
             if strr not in store:
                 store[strr]=[]
-                store[strr].append(s)
-
-            else:
-                store[strr].append(s)
-
-        for o in store:
-            output.append(store[o])
-        return output
+            store[strr].append(s)
+        return store.values()
 
                 
 
