@@ -5,4 +5,4 @@ dictt={
 }
 nums=[1,2,3,4]
 nums=nums[2:]
-print(nums)
+print(nums,5//2)
