@@ -1,6 +1,6 @@
 #find minimum in rotated sorted array
 #T(C)=O(log(n))
-nums = [9,8,7,6,5,0,1,2]
+nums = [9,8,7,0,1,2,3,4,5]
 class Solution(object):
     def findMin(self,nums):
            n=len(nums)
