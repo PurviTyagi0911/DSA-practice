@@ -21,3 +21,6 @@ class Solution(object):
 
 ss=Solution()
 print(ss.topKFrequent(nums,k))
+list=[5,7,8]
+import math
+print(math.ceil(-3/2))

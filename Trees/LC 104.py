@@ -13,16 +13,12 @@ class Node:
         max_depth=1+max(left_d,right_d)
         return max_depth
 
-
-       
-
 three=Node(3)
 nine=Node(9)
 twenty=Node(20)
 fifteen=Node(15)
 seven=Node(7)
 two=Node(2)
-
 
 three.left=nine
 three.right=twenty
