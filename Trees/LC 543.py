@@ -26,3 +26,4 @@ class Solution(object):
         return self.ans
 ss=Solution()
 print(ss.diameterOfBinaryTree(root))
+  
