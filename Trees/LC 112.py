@@ -8,8 +8,7 @@ class Node:
 class Solution(object):
     def hasPathSum(self, root, targetSum):
         if root==None:
-            return False
-        
+            return False 
         targetSum-=root.val
         if root.left==None and root.right==None:
             return targetSum==0
